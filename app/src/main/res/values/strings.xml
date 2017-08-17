@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="caption">Know what you know!</string>
+    <string name="name_text">Enter your name...</string>
+    <string name="question1">1. Android is licensed under which open source licensing license?</string>
+    <string name="question2">2. As an Android developer, what version of Android should you use as your minimum development target?</string>
+    <string name="question3">3. What was the first phone released that ran the Android OS?</string>
+    <string name="question4">4. Which is not a nickname of a version of Android?</string>
+    <string name="question5">5. Which among these are NOT a part of Android Native libraries?</string>
+    <string name="question6">6. What operating system is used as the base of the Android stack?</string>
+    <string name="question7">7. What in-built database is Android shipped with?</string>
+    <string name="question8">8. Who owns the Android Platform?</string>
+    <string name="question9">9. Which is the new language for Android development?</string>
+    <string name="question10">10. There is no guarantee that an activity will be stopped prior to being destroyed.</string>
+    <string name="enter_answer">Enter the answer</string>
+    <string name="true_false">True or False</string>
+    <string name="submit">Get Score</string>
+    <string name="reset">Reset</string>
+    <string name="oss">OSS</string>
+    <string name="apache_mit">Apache/MIT</string>
+    <string name="sourceforge">Sourceforge</string>
+    <string name="_1_6_or_2_0">1.6 or 2.0</string>
+    <string name="_1_2_or_1_3">1.2 or 1.3</string>
+    <string name="_2_3_or_3_0">2.3 or 3.0</string>
+    <string name="htc_hero">HTC Hero</string>
+    <string name="google_gphone">Google gPhone</string>
+    <string name="t_mobile_g1">T-mobile G1</string>
+    <string name="gingerbread">Gingerbread</string>
+    <string name="cupcake">Cupcake</string>
+    <string name="muffin">Muffin</string>
+    <string name="dalvik">Dalvik</string>
+    <string name="opengl">OpenGL</string>
+    <string name="sqlite">SQLite</string>
+</resources>
