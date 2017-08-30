@@ -31,4 +31,8 @@
     <string name="dalvik">Dalvik</string>
     <string name="opengl">OpenGL</string>
     <string name="sqlite">SQLite</string>
+    <string name="question11">11. Which languages can be used for android application development?</string>
+    <string name="java">Java</string>
+    <string name="angularjs">AngularJS</string>
+    <string name="c_c">C/C++</string>
 </resources>

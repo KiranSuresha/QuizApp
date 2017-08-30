@@ -34,21 +34,21 @@
             android:text="@string/question1" />
 
         <RadioGroup
-            android:id="@+id/radioGroup1"
+            android:id="@+id/radioGroup_question1"
             style="@style/radioGroup">
 
             <RadioButton
-                android:id="@+id/ans1A"
+                android:id="@+id/rb_ans1A"
                 style="@style/radioButton"
                 android:text="@string/oss" />
 
             <RadioButton
-                android:id="@+id/ans1B"
+                android:id="@+id/rb_ans1B"
                 style="@style/radioButton"
                 android:text="@string/apache_mit" />
 
             <RadioButton
-                android:id="@+id/ans1C"
+                android:id="@+id/rb_ans1C"
                 style="@style/radioButton"
                 android:text="@string/sourceforge" />
 
@@ -61,21 +61,21 @@
             android:text="@string/question2" />
 
         <RadioGroup
-            android:id="@+id/radioGroup2"
+            android:id="@+id/radioGroup_question2"
             style="@style/radioGroup">
 
             <RadioButton
-                android:id="@+id/ans2A"
+                android:id="@+id/rb_ans2A"
                 style="@style/radioButton"
                 android:text="@string/_1_6_or_2_0" />
 
             <RadioButton
-                android:id="@+id/ans2B"
+                android:id="@+id/rb_ans2B"
                 style="@style/radioButton"
                 android:text="@string/_1_2_or_1_3" />
 
             <RadioButton
-                android:id="@+id/ans2C"
+                android:id="@+id/rb_ans2C"
                 style="@style/radioButton"
                 android:text="@string/_2_3_or_3_0" />
 
@@ -88,21 +88,21 @@
             android:text="@string/question3" />
 
         <RadioGroup
-            android:id="@+id/radioGroup3"
+            android:id="@+id/radioGroup_question3"
             style="@style/radioGroup">
 
             <RadioButton
-                android:id="@+id/ans3A"
+                android:id="@+id/rb_ans3A"
                 style="@style/radioButton"
                 android:text="@string/htc_hero" />
 
             <RadioButton
-                android:id="@+id/ans3B"
+                android:id="@+id/rb_ans3B"
                 style="@style/radioButton"
                 android:text="@string/google_gphone" />
 
             <RadioButton
-                android:id="@+id/ans3C"
+                android:id="@+id/rb_ans3C"
                 style="@style/radioButton"
                 android:text="@string/t_mobile_g1" />
 
@@ -115,21 +115,21 @@
             android:text="@string/question4" />
 
         <RadioGroup
-            android:id="@+id/radioGroup4"
+            android:id="@+id/radioGroup_question4"
             style="@style/radioGroup">
 
             <RadioButton
-                android:id="@+id/ans4A"
+                android:id="@+id/rb_ans4A"
                 style="@style/radioButton"
                 android:text="@string/gingerbread" />
 
             <RadioButton
-                android:id="@+id/ans4B"
+                android:id="@+id/rb_ans4B"
                 style="@style/radioButton"
                 android:text="@string/cupcake" />
 
             <RadioButton
-                android:id="@+id/ans4C"
+                android:id="@+id/rb_ans4C"
                 style="@style/radioButton"
                 android:text="@string/muffin" />
 
@@ -142,21 +142,21 @@
             android:text="@string/question5" />
 
         <RadioGroup
-            android:id="@+id/radioGroup5"
+            android:id="@+id/radioGroup_question5"
             style="@style/radioGroup">
 
             <RadioButton
-                android:id="@+id/ans5A"
+                android:id="@+id/rb_ans5A"
                 style="@style/radioButton"
                 android:text="@string/dalvik" />
 
             <RadioButton
-                android:id="@+id/ans5B"
+                android:id="@+id/rb_ans5B"
                 style="@style/radioButton"
                 android:text="@string/opengl" />
 
             <RadioButton
-                android:id="@+id/ans5C"
+                android:id="@+id/rb_ans5C"
                 style="@style/radioButton"
                 android:text="@string/sqlite" />
 
@@ -167,7 +167,7 @@
             android:text="@string/question6" />
 
         <EditText
-            android:id="@+id/ans6"
+            android:id="@+id/text_ans6"
             style="@style/answerStyle"
             android:hint="@string/enter_answer" />
 
@@ -176,7 +176,7 @@
             android:text="@string/question7" />
 
         <EditText
-            android:id="@+id/ans7"
+            android:id="@+id/text_ans7"
             style="@style/answerStyle"
             android:hint="@string/enter_answer" />
 
@@ -185,7 +185,7 @@
             android:text="@string/question8" />
 
         <EditText
-            android:id="@+id/ans8"
+            android:id="@+id/text_ans8"
             style="@style/answerStyle"
             android:hint="@string/enter_answer" />
 
@@ -194,7 +194,7 @@
             android:text="@string/question9" />
 
         <EditText
-            android:id="@+id/ans9"
+            android:id="@+id/text_ans9"
             style="@style/answerStyle"
             android:hint="@string/enter_answer" />
 
@@ -203,18 +203,43 @@
             android:text="@string/question10" />
 
         <EditText
-            android:id="@+id/ans10"
+            android:id="@+id/text_ans10"
             style="@style/answerStyle"
             android:hint="@string/true_false" />
 
-            <Button
-                android:id="@+id/submitButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:background="#00BF9A"
-                android:onClick="getResult"
-                android:text="@string/submit"
-                android:layout_gravity="center"/>
+        <TextView
+            style="@style/radioGroup"
+            android:text="@string/question11" />
+
+        <CheckBox
+            android:layout_margin="8dp"
+            android:id="@+id/checkboxJava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/java" />
+
+        <CheckBox
+            android:layout_margin="8dp"
+            android:id="@+id/checkboxAngular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/angularjs" />
+
+        <CheckBox
+            android:layout_margin="8dp"
+            android:id="@+id/checkboxC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/c_c" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="#00BF9A"
+            android:onClick="getResult"
+            android:text="@string/submit" />
     </LinearLayout>
 </ScrollView>
